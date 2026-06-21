@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+
+# Local weights (user must download manually)
+*.pth
+
+# Data (user must download from Mendeley)
+data/
+
+# Build outputs and results
+outputs/
+outputs.tar.gz
+
+# Archives
+已归档/
+archive/
+
+# Images and binaries
+*.zip
+*.jpg
+*.png
+*.jpeg
+
+# Logs
+*.log
+*.tmp
+*.bak
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+venv/
+ENV/
+env/
